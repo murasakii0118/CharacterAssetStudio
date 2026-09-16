@@ -1,0 +1,44 @@
+﻿# Build outputs
+release/
+debug/
+*.exe
+*.dll
+*.a
+*.o
+*.obj
+*.pdb
+Makefile
+Makefile.*
+.qmake.stash
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+
+# Local environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+*.user
+*.user.*
+.DS_Store
+Thumbs.db
+
+# Local scratch files
+patch.txt
+edit_project.py
+
+# Bundled third-party SDKs and local toolchains
+QT5.15.18-static/
+AES/
+lz4_win64_v1_10_0/
+zstd-v1.5.7-win64/
+*_plugin_import.cpp
+
+# Optional local ComfyUI integration
+comfyUI_casc/
